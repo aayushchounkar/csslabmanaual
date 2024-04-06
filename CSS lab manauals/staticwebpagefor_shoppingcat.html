@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .product {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .product img {
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+    }
+    .product-info {
+        float: left;
+    }
+    .product-info h2 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .product-info p {
+        margin: 5px 0;
+    }
+    .checkout-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Shopping Cart</h1>
+    <div class="product">
+        <img src="https://www.shutterstock.com/image-photo/vintage-red-shoes-on-white-260nw-92008067.jpg"alt="Product 1">
+        <div class="product-info">
+            <h2>Product 1</h2>
+            <p>Description:Vans Shooes.</p>
+            <p>Price: ₹6500.00</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81+d6eSA0eL._AC_UY1000_.jpg" alt="Product 2">
+        <div class="product-info">
+            <h2>Product 2</h2>
+            <p>Description: Timex watch.</p>
+            <p>Price: ₹13000.00</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg" alt="Product 3">
+        <div class="product-info">
+            <h2>Product 3</h2>
+            <p>Description:Apple's Mac book.</p>
+            <p>Price: ₹1,25,000.00</p>
+        </div>
+    </div>
+    <a href="#" class="checkout-btn">Checkout</a>
+</div>
+
+</body>
+</html>
